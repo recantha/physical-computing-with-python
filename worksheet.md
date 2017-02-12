@@ -34,13 +34,13 @@ LEDs are delicate little things. If you put too much current through them they w
 
 Try connecting the long leg of an LED to the Pi's 3V3 and the short leg to a GND pin. The resistor can be anything over about 50Ω.
 
-![](images/led-3v3.png)
+![](images/led-3v3.jpg)
 
 The LED should light up. It will always be on, because it's connected to a 3V3 pin, which is itself always on.
 
 Now try moving it from 3V3 to GPIO pin 17:
 
-![](images/led-gpio17.png)
+![](images/led-gpio17.jpg)
 
 The LED should now turn off, but now it's on a GPIO pin, and can therefore be controlled by code.
 
